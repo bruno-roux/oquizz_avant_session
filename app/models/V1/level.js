@@ -1,6 +1,6 @@
 // on importe notre classe mère CoreModel
 const CoreModel = require("./coreModel");
-const client = require('../db');
+const client = require('../../db');
 
 // on définit une nouvelle classe (qui commence par une majuscule) avec le mot clé 'class' qui hérite de CoreModel
 class Level extends CoreModel {
@@ -129,6 +129,5 @@ Level.findById(7).then(instance => {
 
 // pour afficher le resultat de notre findAll on doit attendre la résolution de la Promise donc on fait le console.log dans un .then()
 Level.findAll().then((levels) => console.log(levels));
-
 
 module.exports = Level;

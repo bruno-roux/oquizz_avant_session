@@ -1,18 +1,18 @@
+const { Sequelize } = require('sequelize');
 const pg = require('pg');
+
 require('dotenv').config();
 
-// 2. Créer un client
-const client = new pg.Client({
-    host: process.env.PG_HOST,
-    user: process.env.PG_USER,
-    database: process.env.PG_DB,
-    password: process.env.PG_PASSWORD
+
+const pgUrl = `postgres://oquiz:oquiz@localhost/oquiz`
+
+const sequelize = new Sequelize(pgUrl, {
+    // si on voulait faire un conversion de camelCase à snake_case
+    define: {
+        underscored: true
+    }
 });
 
-//const client = new pg.Client(process.env.PG_URL);
+module.exports = sequelize;
 
-// 3. Connecter le client
-client.connect().then(console.log('Connecté !'));
-
-// 4. Exporter le client connecté
-module.exports = client;
+// POUR REGARDER UN TEST SUR UN MODELE, ALLER SUR V3/level.js
