@@ -115,6 +115,7 @@ CREATE TABLE IF NOT EXISTS "quiz_has_tag" (
 -- Maintenant on peut créer la référence vers la table question pour le champ "question_id" dans la table "answer" afin de réprésenter notre clé étrangère.
 -- On remarquera ici la présence de l'instruction FOREIGN KEY qui dit explicitement que ceette colonne sert de clé étrangère faisaint référence à la colonne question de la table question
 -- Lors de la création d'une table ce détail est implicite
+-- question_id représente toutes les réponses potentielles à une question
 ALTER TABLE "answer"
   ADD FOREIGN KEY ("question_id") REFERENCES "question" ("id");
 
