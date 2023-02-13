@@ -13,8 +13,6 @@ class Tag extends CoreModel {
         }
         this.name = obj.name;
     };
-
-
 }
 
 module.exports = Tag;

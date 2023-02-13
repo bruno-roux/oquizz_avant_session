@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS "user" (
   "firstname" text NULL,
   "lastname" text NULL,
   "created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  "updated_at" timestamptz
+  "updated_at" timestamptz,
 );
 
 -- -----------------------------------------------------
