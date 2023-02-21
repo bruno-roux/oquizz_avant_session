@@ -1,0 +1,527 @@
+{
+     "id": 2,
+     "title": "Le chocolat - I",
+     "description": "Bon pour le moral, un peu moins pour le foie.",
+     "createdAt": "2023-02-08T17:58:43.391Z",
+     "updatedAt": null,
+     "user_id": 1,
+     "author": {
+          "id": 1,
+          "email": "philippe@oclock.io",
+          "firstname": "Philippe",
+          "lastname": "Candille",
+          "password": "$2b$10$7vwYGrz2TGeyG4X8YnD9BOag9I.YKGUTJELs64qGmcK/syHu2BzTG",
+          "createdAt": "2023-02-08T17:58:43.391Z",
+          "updatedAt": null
+     },
+     "question_list": [
+          {
+               "id": 31,
+               "question": "À partir de la fève de quel arbre le chocolat est-il produit ?",
+               "anecdote": "Les fèves de cacao sont extraites des baies, que l'on ouvre à la récolte et que l'on met à sécher.",
+               "wiki": "Fève_de_cacao",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 1,
+               "answer_id": 31,
+               "quiz_id": 2,
+               "level": {
+                    "id": 1,
+                    "name": "Débutant",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 31,
+                         "description": "Cacaoyer",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 31
+                    },
+                    {
+                         "id": 295,
+                         "description": "Pacanier",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 31
+                    },
+                    {
+                         "id": 550,
+                         "description": "Cotonnier",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 31
+                    },
+                    {
+                         "id": 805,
+                         "description": "Palmier",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 31
+                    }
+               ]
+          },
+          {
+               "id": 34,
+               "question": "Quel chocolat, parfois mélangé avec des épices, contient le moins de sucre ?",
+               "anecdote": "La qualité du chocolat noir dépend des ingrédients utilisés, et de son pourcentage en cacao.",
+               "wiki": "Chocolat_noir",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 1,
+               "answer_id": 34,
+               "quiz_id": 2,
+               "level": {
+                    "id": 1,
+                    "name": "Débutant",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 34,
+                         "description": "Noir",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 34
+                    },
+                    {
+                         "id": 298,
+                         "description": "Blanc",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 34
+                    },
+                    {
+                         "id": 553,
+                         "description": "Au lait",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 34
+                    },
+                    {
+                         "id": 808,
+                         "description": "Praliné",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 34
+                    }
+               ]
+          },
+          {
+               "id": 37,
+               "question": "Quel chocolat, riche en acides gras saturés, est le plus amère ?",
+               "anecdote": "Le chocolat noir, qui contient peu de cholesterol et très peu de sodium, est une bonne source de magnésium.",
+               "wiki": "Chocolat_noir",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 1,
+               "answer_id": 37,
+               "quiz_id": 2,
+               "level": {
+                    "id": 1,
+                    "name": "Débutant",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 37,
+                         "description": "Noir",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 37
+                    },
+                    {
+                         "id": 301,
+                         "description": "Au lait",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 37
+                    },
+                    {
+                         "id": 556,
+                         "description": "Praliné",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 37
+                    },
+                    {
+                         "id": 811,
+                         "description": "Blanc",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 37
+                    }
+               ]
+          },
+          {
+               "id": 40,
+               "question": "Quel chocolat, généralement préféré par les puristes, ne contient pas de lait ?",
+               "anecdote": "Réglementairement, le chocolat noir doit contenir au moins 35 % de cacao, sans limite supérieure pour la concentration de cacao.",
+               "wiki": "Chocolat_noir",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 1,
+               "answer_id": 40,
+               "quiz_id": 2,
+               "level": {
+                    "id": 1,
+                    "name": "Débutant",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 40,
+                         "description": "Noir",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 40
+                    },
+                    {
+                         "id": 304,
+                         "description": "Blanc",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 40
+                    },
+                    {
+                         "id": 559,
+                         "description": "Au lait",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 40
+                    },
+                    {
+                         "id": 814,
+                         "description": "Praliné",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 40
+                    }
+               ]
+          },
+          {
+               "id": 43,
+               "question": "Quel est le premier pays producteur de cacao, loin devant le Ghana et l'Indonésie ?",
+               "anecdote": "La production de cacao était en 2006 de 4.06 millions de tonnes, en hausse constante depuis 2003.",
+               "wiki": "Cacao",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 2,
+               "answer_id": 43,
+               "quiz_id": 2,
+               "level": {
+                    "id": 2,
+                    "name": "Confirmé",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 43,
+                         "description": "La Côte d'Ivoire",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 43
+                    },
+                    {
+                         "id": 307,
+                         "description": "Le Brésil",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 43
+                    },
+                    {
+                         "id": 562,
+                         "description": "Le Mexique",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 43
+                    },
+                    {
+                         "id": 817,
+                         "description": "Le Cameroun",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 43
+                    }
+               ]
+          },
+          {
+               "id": 46,
+               "question": "Combien peut-on faire de récoltes par an sur un cacaoyer en bonne santé ?",
+               "anecdote": "La maturation des fruits du cacaoyer dure, selon les génotypes, de cinq à sept mois.",
+               "wiki": "Cacaoyer",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 2,
+               "answer_id": 46,
+               "quiz_id": 2,
+               "level": {
+                    "id": 2,
+                    "name": "Confirmé",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 46,
+                         "description": "Deux",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 46
+                    },
+                    {
+                         "id": 310,
+                         "description": "Quatre",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 46
+                    },
+                    {
+                         "id": 565,
+                         "description": "Six",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 46
+                    },
+                    {
+                         "id": 820,
+                         "description": "Huit",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 46
+                    }
+               ]
+          },
+          {
+               "id": 49,
+               "question": "Quel chocolat, devant contenir au minimum 20 % de beurre de cacao, est le plus sucré ?",
+               "anecdote": "Le chocolat blanc a été produit pour la première fois par Nestlé en Suisse dans les années 1930.",
+               "wiki": "Chocolat_blanc",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 2,
+               "answer_id": 49,
+               "quiz_id": 2,
+               "level": {
+                    "id": 2,
+                    "name": "Confirmé",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null
+               },
+               "answer_list": [
+                    {
+                         "id": 49,
+                         "description": "Blanc",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 49
+                    },
+                    {
+                         "id": 313,
+                         "description": "Noir",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 49
+                    },
+                    {
+                         "id": 568,
+                         "description": "Praliné",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 49
+                    },
+                    {
+                         "id": 823,
+                         "description": "Au lait",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 49
+                    }
+               ]
+          },
+          {
+               "id": 52,
+               "question": "Quelle civilisation précolombienne a la première cultivé le cacao ?",
+               "anecdote": "La culture olmèque demeure inconnue jusqu'à la deuxième moitié du XIXe siècle.",
+               "wiki": "Olmèques",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 3,
+               "answer_id": 52,
+               "quiz_id": 2,
+               "level": {
+                    "id": 3,
+                    "name": "très difficile",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": "2023-02-12T20:05:02.772Z"
+               },
+               "answer_list": [
+                    {
+                         "id": 52,
+                         "description": "Les Olmèques",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 52
+                    },
+                    {
+                         "id": 316,
+                         "description": "Les Africains",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 52
+                    },
+                    {
+                         "id": 571,
+                         "description": "Les Berbères",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 52
+                    },
+                    {
+                         "id": 826,
+                         "description": "Les Aztèques",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 52
+                    }
+               ]
+          },
+          {
+               "id": 55,
+               "question": "Quel explorateur a rapporté le cacao en Europe en 1528 ?",
+               "anecdote": "Hernán Cortés s'est emparé de l'Empire aztèque pour le compte de Charles Quint, roi de Castille et empereur romain germanique.",
+               "wiki": "Hernán_Cortés",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 3,
+               "answer_id": 55,
+               "quiz_id": 2,
+               "level": {
+                    "id": 3,
+                    "name": "très difficile",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": "2023-02-12T20:05:02.772Z"
+               },
+               "answer_list": [
+                    {
+                         "id": 55,
+                         "description": "Cortés",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 55
+                    },
+                    {
+                         "id": 319,
+                         "description": "Christophe Colomb",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 55
+                    },
+                    {
+                         "id": 574,
+                         "description": "Charcot",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 55
+                    },
+                    {
+                         "id": 829,
+                         "description": "Foucauld",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 55
+                    }
+               ]
+          },
+          {
+               "id": 58,
+               "question": "Une fois la masse de cacao pressée, quel produit est utilisé pour faire du cacao en poudre ?",
+               "anecdote": "Deux procédés de trituration sont possibles : la pression discontinue à froid et la pression continue à chaud.",
+               "wiki": "Tourteau_(résidu)",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "level_id": 3,
+               "answer_id": 58,
+               "quiz_id": 2,
+               "level": {
+                    "id": 3,
+                    "name": "très difficile",
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": "2023-02-12T20:05:02.772Z"
+               },
+               "answer_list": [
+                    {
+                         "id": 58,
+                         "description": "Le tourteau",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 58
+                    },
+                    {
+                         "id": 322,
+                         "description": "Le crabe",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 58
+                    },
+                    {
+                         "id": 577,
+                         "description": "Le homard",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 58
+                    },
+                    {
+                         "id": 832,
+                         "description": "La crevette",
+                         "createdAt": "2023-02-08T17:58:43.391Z",
+                         "updatedAt": null,
+                         "question_id": 58
+                    }
+               ]
+          }
+     ],
+     "tag_list": [
+          {
+               "id": 3,
+               "name": "Gastronomie",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "quiz_has_tag": {
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null,
+                    "quiz_id": 2,
+                    "tag_id": 3
+               }
+          },
+          {
+               "id": 7,
+               "name": "Nature",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "quiz_has_tag": {
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null,
+                    "quiz_id": 2,
+                    "tag_id": 7
+               }
+          },
+          {
+               "id": 9,
+               "name": "Géographie",
+               "createdAt": "2023-02-08T17:58:43.391Z",
+               "updatedAt": null,
+               "quiz_has_tag": {
+                    "createdAt": "2023-02-08T17:58:43.391Z",
+                    "updatedAt": null,
+                    "quiz_id": 2,
+                    "tag_id": 9
+               }
+          }
+     ]
+}

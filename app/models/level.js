@@ -1,6 +1,6 @@
 
 // on récupère sequelize
-const sequelize = require('../../db');
+const sequelize = require('../db');
 // dans sequelize on retrouve une classe s'appelant Model qui sert de moule à l'instanciation de nos modèles 
 // dans cette classe on va retrouver toutes les méthodes permettant de faire des requêtes àa la BDD (insert, update, get, delete ...)
 // DataTypes permet de définir pour sequelize quel type de valeur il va recevoir 
